@@ -61,3 +61,8 @@ Unhandled routes return a 404 Page Not Found message in the console (but not to 
 fs.appendFileSync() is used for logging. For high-load servers, async file handling is recommended.
 
 This project is useful for learning basic HTTP server setup without Express.js.
+
+https://github.com/user-attachments/assets/71e90165-0cb7-40df-ac01-b24a3686e0a7
+
+
+
