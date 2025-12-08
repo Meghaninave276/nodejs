@@ -1,0 +1,9 @@
+client request on http://localhost:4600/ by GET at 8/11/2025| 9:48:44 from this IP: ::1
+
+client request on http://localhost:4600/ by GET at 8/11/2025| 10:3:7 from this IP: ::1
+client request on http://localhost:4600/ by POST at 8/11/2025| 10:3:12 from this IP: ::1
+client request on http://localhost:4600/about by PUT at 8/11/2025| 10:3:23 from this IP: ::1
+client request on http://localhost:4600/about by DELETE at 8/11/2025| 10:3:28 from this IP: ::1
+client request on http://localhost:4600/portfolio by GET at 8/11/2025| 10:3:37 from this IP: ::1
+client request on http://localhost:4600/portfolio by POST at 8/11/2025| 10:3:42 from this IP: ::1
+client request on http://localhost:4600/portfolio by DELETE at 8/11/2025| 10:3:47 from this IP: ::1
