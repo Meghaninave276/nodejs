@@ -1,0 +1,18 @@
+[
+  {
+    "id": 2,
+    "title": "Study react",
+    "description": "Practice ES6 features and async programming",
+    "status": "in-progress",
+    "dueDate": "2025-01-25",
+    "createdAt": "2025-01-11T18:45:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Study node",
+    "description": "Practice ES6 features and async programming",
+    "status": "completed",
+    "dueDate": "2025-05-25",
+    "createdAt": "2025-01-11T18:55:00Z"
+  }
+]
