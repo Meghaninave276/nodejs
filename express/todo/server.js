@@ -105,3 +105,9 @@ app.delete("/:id", (req, res) => {
 app.listen(2700, () => {
   console.log("server started");
 });
+ //http://localhost:2700/?status=completed
+ //http://localhost:2700/?title=groceries
+
+ // http://localhost:2700/?dueBefore=2025-01-20
+// http://localhost:2700/?dueAfter=2025-01-10
+
