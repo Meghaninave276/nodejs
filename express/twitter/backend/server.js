@@ -38,7 +38,16 @@ app.post("/",(req,res)=>{
     res.json({msg:"data inserted successfully!"});
 })
 
-app.delete("/", (req, res) => {
+app.put("/:id",(req,res)=>{
+   
+    const body=req.body;
+     let user=readuser();
+   user=user.map((u)=>u.id===body.id?body:u);
+   writeuser(user)
+   res.json({msg:"data updated"});
+ 
+})
+app.delete("/:id", (req, res) => {
   let user = readuser();
   const id = Number(req.params.id);
 
@@ -46,7 +55,10 @@ app.delete("/", (req, res) => {
   writeuser(user);
 
   res.json({ msg: "data deleted" });
-});
+})
+
+
+
 
 app.listen(3400,()=>{
     console.log("server started");
