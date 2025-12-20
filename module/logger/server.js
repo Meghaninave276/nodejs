@@ -16,6 +16,8 @@ const server = http.createServer((req,res)=>{
         res.end("Home page-GET request");
 
     }
+
+    
     else if(req.url==="/" && req.method=='POST')
     {
         res.writeHead(200,{"content-type":"text/plain"});
